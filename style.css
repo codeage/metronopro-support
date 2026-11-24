@@ -16,6 +16,7 @@ a { color: var(--link); text-underline-offset: .2em; }
 a[aria-current] { color: inherit; }
 a:focus-visible { outline: 2px solid var(--link); outline-offset: .25rem; }
 .languages { padding-top: 1.25rem; }
+.languages a[aria-current] { font-weight: 700; }
 section { padding: 1.25rem 0; scroll-margin-top: 1rem; }
 section + section { border-top: 1px solid var(--rule); }
 h1, h2, h3 { line-height: 1.25; margin: 1.2em 0 .4em; }
